@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: petdetailsservice
-        image: gcr.io/nithinistioproject/petdetailsservice:feb4v1
+        image: gcr.io/solid-scheme-144804/petdetailsservice:feb4v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9081
