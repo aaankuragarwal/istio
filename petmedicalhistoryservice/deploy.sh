@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export PROJECT=MyProject
+export PROJECT=solid-scheme-144804
 export CONTAINER_VERSION=feb4v1
 export IMAGE=gcr.io/$PROJECT/petmedicalhistoryservice:$CONTAINER_VERSION
 export BUILD_HOME=.
