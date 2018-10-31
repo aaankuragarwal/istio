@@ -47,5 +47,5 @@ spec:
       - path: /pet/.*
         backend:
           serviceName: petservice
-          servicePort: http
+          servicePort: 9080
 ---
