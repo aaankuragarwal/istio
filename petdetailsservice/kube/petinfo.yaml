@@ -30,18 +30,3 @@ spec:
         ports:
         - containerPort: 9081
 ---
-
-###########################################################################
-# Ingress resource (gateway)
-##########################################################################
-apiVersion: extensions/v1beta1
-kind: Ingress
-metadata:
-  name: gateway-petdetails
-  annotations:
-    kubernetes.io/ingress.class: "istio"
-spec:
-  backend:
-    serviceName: petdetailsservice
-    servicePort: 9081
----
